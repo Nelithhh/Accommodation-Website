@@ -1,0 +1,57 @@
+:root{
+    --text-color:#1E1E1E;
+    --main-color:#B6EC3D;
+    --light-green:#F9FEED;
+}
+
+.formclass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.loginForm input{
+    padding: 10px 20px;
+    border: solid 1px;
+    border-radius: 22px;
+    height: 40px;
+    margin-top:15px;
+    outline: none;
+}
+.loginForm input:nth-child(8) {
+    border: none;
+}
+textarea{
+    padding: 10px 20px;
+    border: solid 1px;
+    border-radius: 22px;
+    margin-top: 300px;
+    outline: none;
+}
+
+.btn{
+    
+}
+
+.container .col{
+    justify-content: space-between;
+    padding-top: 100px;
+    display: flex;
+}
+
+.col .row1{
+    width: 60%;
+}
+.row2 .img{
+    width:400px;
+}
